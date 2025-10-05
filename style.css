@@ -1,0 +1,106 @@
+  * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #e8f4f8;
+            font-family: 'Georgia', serif;
+        }
+
+        .contenedor-general {
+            width: 1200px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            border: 3px solid rgb(215, 143, 238);
+        }
+
+        header {
+            width: 100%;
+            background-color: rgb(215, 143, 238);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 52px;
+            letter-spacing: 3px;
+            font-weight: bold;
+        }
+
+        nav {
+            width: 100%;
+            background-color: rgb(155, 93, 224);
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin: 0 30px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .contenido-wrapper {
+            display: flex;
+        }
+
+        .contenido-principal {
+            width: 70%;
+            padding: 25px;
+            background-color: #f9f9f9;
+        }
+
+        .cuadricula {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+
+        .caja {
+            background-color: rgb(155, 93, 224);
+            color: white;
+            padding: 50px;
+            text-align: center;
+            font-size: 22px;
+            border: 2px solid rgb(155, 93, 224);
+        }
+
+        .barra-lateral {
+            width: 30%;
+            background-color: #ecf0f1;
+            padding: 25px;
+            border-left: 4px solid #95a5a6;
+        }
+
+        .barra-lateral h3 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+            font-size: 24px;
+        }
+
+        .barra-lateral p {
+            color: #7f8c8d;
+            line-height: 1.8;
+        }
+
+        footer {
+            width: 100%;
+            background-color: rgb(215, 143, 238);
+            color: white;
+            padding: 25px;
+            text-align: center;
+            font-size: 16px;
+        }
